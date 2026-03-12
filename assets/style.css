@@ -2,14 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: cursive;
   background-color: #ffffff;
 }
 html body {
   height: 100%;
   width: 100%;
 }
-
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 .top-bar {
   padding: 12px 0;
   border-bottom: 1px solid #e9ecef;
@@ -232,4 +233,88 @@ a.dropdown-toggle:hover {
   100% {
     transform: translateX(-60%);
   }
+}
+
+/* second-sec */
+.second-sec-head {
+  font-size: 80px;
+  padding-top: 64px;
+  font-weight: 400;
+}
+.second-para {
+  margin-top: 20px;
+}
+.progress {
+  height: 3px;
+  width: 580px;
+}
+.line {
+  height: 3px;
+  background-color: red;
+  width: 0%;
+}
+.progress1 {
+  height: 3px;
+  width: 580px;
+}
+.line1 {
+  height: 3px;
+  background-color: rgb(4, 159, 76);
+  width: 0%;
+}
+
+.third-sec {
+  padding-top: 150px;
+}
+<style > .text-dark-blue {
+  color: #0b3558; /* Calendly's header color */
+}
+
+.integration-card {
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border: 1px solid #f1f1f1;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+  padding: 20%;
+}
+
+.integration-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.integration-card img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Responsive adjustment for 9 columns on large screens */
+@media (min-width: 1200px) {
+  .row-cols-lg-9 > * {
+    flex: 0 0 auto;
+    width: 11.11%;
+  }
+}
+
+.first-box {
+  width: 300px;
+  padding: 20px;
+}
+.second-box {
+  width: 300px;
+  padding: 20px;
+  background-color: #efefef;
+}
+.second-box,
+li {
+  background-color: transparent;
 }

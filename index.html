@@ -1,437 +1,276 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Calendly</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Bootstrap CSS -->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/style.css" />
+
+    <title>Mega Menu</title>
   </head>
+
   <body>
-    <!-- Top Bar -->
-    <div class="top-bar">
-      <div class="container">
-        <div class="d-flex justify-content-end align-items-center gap-3">
-          <div class="dropdown">
-            <a
-              class="dropdown-toggle text-dark"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-            >
-              <span>English</span>
-            </a>
-            <ul class="dropdown-menu dropdown-menu-end">
-              <li><a class="dropdown-item" href="#">English</a></li>
-              <li><a class="dropdown-item" href="#">Spanish</a></li>
-              <li><a class="dropdown-item" href="#">French</a></li>
+    <section class="px-4">
+      <nav class="navbar navbar-expand-lg bg-white shadow-sm">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="#">Brand</a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navMenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button">
+                  Product
+                </a>
+
+                <div class="dropdown-menu mega-menu">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <h6 class="fw-bold mb-3">Product</h6>
+
+                      <div class="menu-item">
+                        <div class="menu-icon">🔗</div>
+                        <div>
+                          <strong>Scheduling</strong>
+                          <div class="text-muted small">Simplified booking</div>
+                        </div>
+                      </div>
+
+                      <div class="menu-item">
+                        <div class="menu-icon">📝</div>
+                        <div>
+                          <strong>Notetaker</strong>
+                          <div class="text-muted small">Meeting recaps</div>
+                        </div>
+                      </div>
+
+                      <div class="menu-item">
+                        <div class="menu-icon">📊</div>
+                        <div>
+                          <strong>Product overview</strong>
+                          <div class="text-muted small">Why choose us</div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <h6 class="fw-bold mb-3">Platform</h6>
+
+                      <ul class="list-unstyled">
+                        <li class="mb-2">
+                          <a href="#" class="text-decoration-none"
+                            >Integrations</a
+                          >
+                        </li>
+                        <li class="mb-2">
+                          <a href="#" class="text-decoration-none"
+                            >Mobile app</a
+                          >
+                        </li>
+                        <li class="mb-2">
+                          <a href="#" class="text-decoration-none"
+                            >Browser extension</a
+                          >
+                        </li>
+                        <li class="mb-2">
+                          <a href="#" class="text-decoration-none"
+                            >Admin controls</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" class="text-decoration-none">Security</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Resources</a>
+              </li>
             </ul>
           </div>
-          <a class="talk-sale" href="#">Talk to sales</a>
         </div>
-      </div>
-    </div>
+      </nav>
+    </section>
 
-<section class="border-bottom">
-  <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="https://marketing-assets.calendly.com/media/logo.svg" alt="Calendly" height="32">
-      </a>
-
-      <button
-        class="navbar-toggler border-0"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-          <li class="nav-item dropdown px-2">
-            <a class="nav-link dropdown-toggle fw-bold text-dark" href="#" role="button" data-bs-toggle="dropdown">
-              Product
-            </a>
-            <ul class="dropdown-menu border-0 shadow-sm">
-              <div class="d d-flex p-2">
-<div class="first-box">
-
-  <li><a class="dropdown-item" href="#">Overview</a></li>
-  <li><a class="dropdown-item" href="#">Features</a></li>
-  <li><a class="dropdown-item" href="#">Features</a></li>
-  <li><a class="dropdown-item" href="#">Features</a></li>
-</div>
-<div class="second-box">
-
-  <li><a class="dropdown-item" href="#">Overview</a></li>
-  <li><a class="dropdown-item" href="#">Features</a></li>
-</div>
-
-              </div>
-             
-             
-            </ul>
-          </li>
-          <li class="nav-item dropdown px-2">
-            <a class="nav-link dropdown-toggle fw-bold text-dark" href="#" role="button" data-bs-toggle="dropdown">
-              Solutions
-            </a>
-            <ul class="dropdown-menu border-0 shadow-sm">
-              <li><a class="dropdown-item" href="#">Sales</a></li>
-              <li><a class="dropdown-item" href="#">Marketing</a></li>
-            </ul>
-          </li>
-          <li class="nav-item px-2">
-            <a class="nav-link fw-bold text-dark" href="#">Resources</a>
-          </li>
-          <li class="nav-item px-2">
-            <a class="nav-link fw-bold text-dark" href="#">Pricing</a>
-          </li>
-        </ul>
-
-        <div class="d-flex align-items-center">
-          <a class="btn btn-link text-dark text-decoration-none fw-bold me-3" href="#">Log In</a>
-          <a class="btn btn-primary px-4 py-2 fw-bold" href="#" style="border-radius: 8px; background-color: #006bff; border-color: #006bff;">
-            Get started
-          </a>
-        </div>
-      </div>
-    </div>
-  </nav>
-</section>
-
-    <!-- Hero Section -->
-    <section class="hero-section px-4">
+    <!-- hero section -->
+    <section class="hero-sec px-4">
       <div class="container">
-        <div class="row align-items-center">
-          <div class="col-12 col-lg-6">
-            <h1 class="hero-title">Easy<br />scheduling<br />ahead</h1>
-            <p class="hero-subtitle">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <h1 class="hero-heading">Easy scheduling ahead</h1>
+            <p class="hero-para">
               Join 20 million professionals who easily book meetings with the #1
               scheduling tool.
             </p>
-
-            <div class="auth-buttons">
-              <button class="btn btn-primary btn-lg mb-3">
+            <div class="google">
+              <div
+                class="d d-flex justify-content-center align-items-center gap-4"
+              >
                 <img
-                  src="https://www.gstatic.com/images/branding/product/1x/googleg_standard_white_92dp.png"
-                  alt="Google"
-                  width="20"
+                  src="https://calendly.com/media/googleLogo.svg"
+                  alt=""
+                  srcset=""
                 />
-                Sign up with Google
-              </button>
-              <button class="btn btn-dark btn-lg mb-3">
-                <img
-                  src="https://www.microsoft.com/favicon.ico"
-                  alt="Microsoft"
-                  width="20"
-                />
-                Sign up with Microsoft
-              </button>
-            </div>
-
-            <p class="or-text">__________OR_________</p>
-            <div class="d-flex gap-2">
-              <a href="#" class="sign-up-email">Sign up free with email</a>
-              <p class="credit-text">No credit card required</p>
-            </div>
-          </div>
-
-          <div class="col-12 col-lg-6">
-            <div class="booking-demo">
-              <div class="demo-card">
-                <div class="demo-header">
-                  <div class="company-logo">ACME Inc.</div>
-                  <div class="user-avatar"></div>
-                  <p class="user-name">Fatima Sy</p>
-                  <p class="meeting-type">Client Check-in</p>
-                </div>
-                <div class="meeting-details">
-                  <span>30 min</span>
-                  <span>Zoom</span>
-                </div>
-                <div class="calendar-section">
-                  <h5>Select a Date & Time</h5>
-                  <div class="calendar">
-                    <div class="month-nav">
-                      <span>&lt;</span>
-                      <span>July 2024</span>
-                      <span>&gt;</span>
-                    </div>
-                    <div class="calendar-grid"></div>
-                  </div>
-                  <div class="time-slots">
-                    <button class="time-slot">10:00am</button>
-                    <button class="time-slot active">11:00am</button>
-                    <button class="time-slot">1:00pm</button>
-                    <button class="time-slot">2:30pm</button>
-                    <button class="time-slot">4:00pm</button>
-                  </div>
-                  <button class="btn btn-primary confirm-btn">Confirm</button>
-                </div>
+                <h5>Sigup with Google</h5>
               </div>
             </div>
+            <div class="google mt-3">
+              <div
+                class="d d-flex justify-content-center align-items-center gap-4"
+              >
+                <img
+                  src="https://calendly.com/media/googleLogo.svg"
+                  alt=""
+                  srcset=""
+                />
+                <h5>Sigup with Google</h5>
+              </div>
+            </div>
+            _________________or_________________
+          </div>
+          <div class="d d-flex gap-2">
+            <a href="#">Sigup Up with Free Email</a>
+            <p>No credit card required</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- slider section -->
-    <section class="logo-slider">
-      <p class="text-center">
-        Trusted by more than 100,000 of the world’s leading organizations
-      </p>
-
-      <div class="slider-overflow">
-        <div class="main-tracker d-flex align-items-center gap-5" id="slider">
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-          <img src="./assets/img/internet.png" alt="Logo" />
-        </div>
-      </div>
-    </section>
-
-
-    <section class="second-sec px-4">
+    <!-- seocnd section -->
+    <section class="second-sec text-center px-4">
       <div class="container">
         <div class="row">
-          <div class="col-12 text-center">
-
-            <h2  class="second-sec-head">Calendly makes <br> scheduling simple</h2>
-          <p class="second-para">Calendly’s easy enough for individual users, and powerful enough to meet the needs of <br> enterprise organizations — including 86% of the Fortune 500 companies.</p>
+          <div class="col-12">
+            <p>
+              Trusted by more than 100,000 of the world’s leading organizations
+            </p>
+            <div class="d-flex flex-column gap-3">
+              <h1 class="sec-head">
+                Calendly makes <br />
+                scheduling simple
+              </h1>
+              <p class="sec-para">
+                Calendly’s easy enough for individual users, and powerful enough
+                to meet the needs of <br />
+                enterprise organizations — including 86% of the Fortune 500
+                companies.
+              </p>
+            </div>
+            <button class="btn--sign-secondary">SignUp for Free</button>
           </div>
-
         </div>
-<div class="row">
-  <div class="col-sm-12 col-md-6">
-<h4>Connect Your Calendar</h4>
-<p>Calendly connects up to six calendars to automate scheduling with real-time availability.</p>
-<div class="progress1">
-  <div class="line1"></div>
-
-</div>  
-
-  <div class="col-sm-12 col-md-6">
-<h4>Connect Your Calendar</h4>
-<p>Calendly connects up to six calendars to automate scheduling with real-time availability.</p>
-<div class="progress">
-  <div class="line"></div>
-
-</div>  
-
-</div>
-</div>
       </div>
     </section>
 
-    <!-- third sec -->
-<section class="third-sec">
-<div class="container">
-  <div class="row">
-    <div class="col-sm-12 col-md-6">
-      <h1>Connect Calendly to the <br> tools you already use</h1>
-    </div>
-    <div class="col-sm-12 col-md-6">
-      <p>Boost productivity with 100+ integrations
-<br>
-View all integrations ->
- </p>
+    <!-- <section class="calendars px-4">
+        <div class="container">
+            <div class="row">
+<div class="col-12 col-md-6">hell js</div>
+<div class="col-12 col-md-6">hell js</div>
+            </div>
 
+           
+        </div>
+    </section> -->
+
+    <!-- Connect Calendly to the tools you already use -->
+    <section class="connect-tools px-4" >
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <h1>
+              Connect Calendly to the <br />
+              tools you already use
+            </h1>
+          </div>
+
+          <div class="col-12 col-md-6">
+                    
+                    <div class="d d-flex flex-column gap-1" style="border: 2px solid red;">
+                        <p>Boost productivity with 100+ integrations</p>
+                        <p>View Intergration</p>
+                    </div>
+                </div>
+              </div>
+              
+              <!-- tools -->
+              <div class="row">
+                  <div class="d d-flex gap-3 flex-wrap">
+                      <div class="box1">box1</div>
+                      
+                      <div class="box1">box1</div>
+              <div class="box1">box1</div>
+              <div class="box1">box1</div>
+              <div class="box1">box1</div>
+              <div class="box1">box1</div>
+              <div class="box1">box1</div>
+              <div class="box1">box1</div>
+              <div class="box1">box1</div>
+              <div class="box1">box1</div>
+              <div class="box1">box1</div>
+              <div class="box1">box1</div>
+              <div class="box1">box1</div>
+              <div class="box1">box1</div>
+              <div class="box1">box1</div>
+              <div class="box1">box1</div>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col-12 col-md-6 mt-5 card-1">
+                  
+            <div class="d d-flex justify-content-between">
+              <img
+                src="https://calendly.com/media/googleLogo.svg"
+                alt=""
+                srcset=""
+              />
+              <span>&#8599;</span>
+            </div>
+            <h3>Google Suit</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+                repellat dolore impedit error atq
+            </p>
+        </div>
+        <div class="col-12 col-md-6 mt-5 card-1">
+            <div class="d d-flex justify-content-between">
+                <img
+                src="https://calendly.com/media/googleLogo.svg"
+                alt=""
+                srcset=""
+              />
+              <span>&#8599;</span>
+            </div>
+            <h3>Google Suit</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+                repellat dolore impedit error atq
+            </p>
+        </div>
     </div>
-    <!-- icons -->
- 
-  </div>
- <div class="row d-flex" style="border: 2px solid red;">
-    <div>hel</div>
-    <div>hel</div>
-  </div>
+    </div>
+</div>
 </div>
 </section>
-<section class="py-5 bg-white">
-  <div class="container">
-    <div class="row align-items-center mb-5">
-      <div class="col-lg-7">
-        <h2 class="display-5 fw-bold text-dark-blue">Connect Calendly to the tools you already use</h2>
-      </div>
-      <div class="col-lg-5">
-        <p class="text-muted mb-2">Boost productivity with 100+ integrations</p>
-        <a href="#" class="text-primary fw-bold text-decoration-none">
-          View all integrations <i class="bi bi-arrow-right"></i>
-        </a>
-      </div>
-    </div>
-
-    <div class="row g-4 row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-9 justify-content-center">
-      <div class="col">
-        <div class="integration-card">
-          <img src="path-to-zoom-logo.svg" alt="Zoom">
-        </div>
-      </div>
-      </div>
-  </div>
-</section>
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="./assets/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

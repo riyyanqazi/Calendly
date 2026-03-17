@@ -76,3 +76,31 @@ background-color: #ffffff;
 border: 2px solid rgb(228, 228, 228);
 border-radius: 10px;
 }
+/* scheduling-link */
+.scheduling-link{
+    padding-top: 70px;
+
+}
+/* .scheduling-heading */
+.scheduling-heading{
+    font-size: 60px;
+}
+/* plan-sec */
+.plan-sec{
+    padding-top: 50px;
+}
+/* .plans-options */
+
+.card1{
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid rebeccapurple;
+}
+/* card1-btn */
+.card1-btn{
+padding: 6px 30px 6px 30px;
+border: none;
+border-radius: 3px;
+background-color: #004eba;
+color: white;
+}
